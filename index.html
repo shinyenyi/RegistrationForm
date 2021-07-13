@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Registration form</title>
+
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section id="intro">
+    <div class="container">
+      <div class="left-col">
+        <h1>Learning To Code</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis mollitia expedita architecto voluptas commodi laboriosam voluptatem ratione exercitationem nisi repellendus rerum omnis at et qui neque, voluptate, nulla error eaque?</p>
+      </div>
+      <div class="right-col">
+        <div class="top-box">
+          <p><span>Try it</span> its actually fun</p>
+        </div>
+        <div class="form-container">
+          <form action="#">
+            <div class="field-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" placeholder="First Name">
+              <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+              <p class="error-text">First Name cannot be empty</p>
+            </div>
+            <div class="field-group">
+              <label for="LastName">Last Name</label>
+              <input type="text" id="LastName" placeholder="Last Name">
+              <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+              <p class="error-text">Last Name cannot be empty</p>
+            </div>
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="email@example.com">
+              <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+              <p class="error-text">invalid mail address</p>
+            </div>
+            <div class="field-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Password">
+              <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+              <p class="error-text">invalid password</p>
+            </div>
+            <button type="submit">Register</button>
+            <p class="form-footer">By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Miguel Shinyenyi</a>.
+    </p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
